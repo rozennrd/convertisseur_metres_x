@@ -1,0 +1,55 @@
+@font-face {
+    font-family: Alice;
+    src: url("./fonts/Alice-Regular.ttf");
+}
+
+.first-color { 
+	background: #ffeed0; 
+}
+
+.second-color { 
+	background: #f79f24; 
+}
+
+.third-color { 
+	background: #f12d2d; 
+}
+
+.fourth-color { 
+	background: #7c064d; 
+}
+body {
+    margin-top: 3em; 
+    background-color: #f79f24;
+    
+}
+
+.container {
+    margin-top: 3em;
+    text-align: center;
+    margin : auto;
+    width : 50%; 
+    padding: 3em;
+    display: block;
+    background-color: #ffeed0;
+    border-radius: 15px; 
+    
+}
+
+.container h1 {
+    color: #7c064d;
+    font-family: Alice;
+}
+
+#submit {
+    font-size: large;
+    background-color: #7c064d;
+    color: #ffeed0;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom:0.5em ;
+    border-radius: 15px;
+    box-shadow: 0 0 3px #ffeed0;
+    border:none;
+}
